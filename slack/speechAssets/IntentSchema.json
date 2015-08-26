@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "GetFirstEventIntent",
+      "slots": [
+        {
+          "name": "channel",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "intent": "GetNextEventIntent",
+      "slots": [{
+        "name": "message",
+        "type": "STRING"
+      }]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    },
+    {
+      "intent": "FinishIntent",
+      "slots": []
+    }
+  ]
+}

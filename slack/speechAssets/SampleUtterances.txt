@@ -1,0 +1,35 @@
+GetFirstEventIntent {burn|channel}
+GetFirstEventIntent {testing|channel}
+
+FinishIntent no
+FinishIntent nope
+FinishIntent no thanks
+FinishIntent no thank you
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me
+
+GetNextEventIntent post the message {fun|message}
+GetNextEventIntent post the message {I am|message}
+GetNextEventIntent post the message {This is a|message}
+GetNextEventIntent post the message {the quick brown fox|message}
+GetNextEventIntent post the message {bug|message}
+GetNextEventIntent post the message {there is|message}
+GetNextEventIntent post the message {production|message}
+GetNextEventIntent post the message {welocme|message}
+GetNextEventIntent post the message {party|message}
+GetNextEventIntent post the message {I found|message}
